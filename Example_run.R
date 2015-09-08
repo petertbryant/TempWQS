@@ -7,6 +7,8 @@ source('funCalculateSDADM.R')
 source('funEvaluateTempWQS.R')
 source('funPlotTempWQS.R')
 
+options(stringsAsFactors = FALSE)
+
 sdadm <- Calculate.sdadm(df = df.all, 
                          result_column_name = "Result", 
                          station_column_name =  "Station_ID", 
