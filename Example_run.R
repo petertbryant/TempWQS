@@ -1,6 +1,7 @@
 library(chron)
 library(reshape)
 library(plyr)
+library(zoo)
 load('example_df.Rdata')
 source('funCalculateSDADM.R')
 source('funEvaluateTempWQS.R')

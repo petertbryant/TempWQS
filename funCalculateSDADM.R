@@ -27,6 +27,7 @@ Calculate.sdadm <- function(df, result_column_name, station_column_name, datetim
   
   require(chron)
   require(reshape)
+  require(zoo)
   
   tdata <- df[,c(station_column_name, datetime_column_name, result_column_name)]
   
